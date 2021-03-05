@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/how-is-the-sky/static/css/main.23e8680c.chunk.css",
-    "main.js": "/how-is-the-sky/static/js/main.8c68342d.chunk.js",
-    "main.js.map": "/how-is-the-sky/static/js/main.8c68342d.chunk.js.map",
+    "main.js": "/how-is-the-sky/static/js/main.0c1f5661.chunk.js",
+    "main.js.map": "/how-is-the-sky/static/js/main.0c1f5661.chunk.js.map",
     "runtime-main.js": "/how-is-the-sky/static/js/runtime-main.09a2dd8c.js",
     "runtime-main.js.map": "/how-is-the-sky/static/js/runtime-main.09a2dd8c.js.map",
     "static/js/2.f2eee80e.chunk.js": "/how-is-the-sky/static/js/2.f2eee80e.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.09a2dd8c.js",
     "static/js/2.f2eee80e.chunk.js",
     "static/css/main.23e8680c.chunk.css",
-    "static/js/main.8c68342d.chunk.js"
+    "static/js/main.0c1f5661.chunk.js"
   ]
 }
