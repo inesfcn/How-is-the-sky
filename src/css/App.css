@@ -1,0 +1,305 @@
+body {
+  background-color: rgba(175, 60, 94, 0.25);
+  font-family: "Times New Roman", Times, serif;
+}
+
+#root {
+  width: 98vw;
+  height: 100vh;
+  position: relative;
+}
+
+/* ************INFO DISPLAY************ */
+.infoDisplay,
+.inputCityDiv,
+.anotherCity {
+  color: #535353;
+  box-shadow: 2px 2px 5px #80808071;
+  padding: 1rem;
+}
+
+.infoDisplay,
+.anotherCity {
+  text-align: center;
+  font-size: 8px;
+  background-color: #f5f5f58c;
+  margin: 10px;
+}
+
+.infoDisplay h1 {
+  display: inline;
+  margin-right: 5px;
+}
+
+.anotherCity {
+  border: none;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.info-displays {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temp-desc {
+  text-transform: capitalize;
+}
+
+/* **************INPUT************* */
+.inputCityDiv {
+  width: 80%;
+  margin: 10% auto;
+  padding: 3rem;
+  font-size: 35px;
+}
+
+.inputCityDiv input {
+  height: 30px;
+  width: 80%;
+  border: none;
+  padding: 1rem;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  color: #3b3b3b;
+}
+
+/************ MOON AND SUN **************/
+.sun {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 10% auto;
+  z-index: 20;
+  background-color: rgba(255, 217, 0, 0.555);
+  box-shadow: 0px 0px 50px rgb(255, 238, 182);
+}
+
+.moon {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: hsla(49, 36%, 91%, 0.007);
+  margin: 10% auto;
+  z-index: 20;
+  /* box-shadow: inset -100px 0px rgba(241, 238, 225, 0.451); */
+}
+
+/* CLOUDS */
+img {
+  width: 25%;
+  opacity: 0.6;
+}
+
+.clouds {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.clouds img {
+  position: absolute;
+}
+
+.cloud5 {
+  bottom: 30%;
+  right: 0%;
+  width: 30%;
+}
+
+@keyframes animate1 {
+  0% {
+    opacity: 0.8;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.8;
+    left: 80%;
+  }
+}
+
+.cloud1 {
+  top: 10%;
+  left: -20%;
+  animation: animate1 50s linear infinite;
+}
+
+.cloud2 {
+  width: 25%;
+  top: 25%;
+  left: 40%;
+  animation: animate2 80s linear infinite;
+}
+
+@keyframes animate2 {
+  0% {
+    opacity: 0.3;
+    left: -10%;
+  }
+  50% {
+    opacity: 0.5;
+  }
+
+  100% {
+    opacity: 0.3;
+    left: 80%;
+  }
+}
+
+.cloud3 {
+  top: 35%;
+  left: 10%;
+  width: 30%;
+  animation: animate3 100s linear infinite;
+}
+
+@keyframes animate3 {
+  0% {
+    opacity: 0.6;
+    left: 100%;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.7;
+    left: 0%;
+  }
+}
+
+.cloud4 {
+  top: 45%;
+  left: 100%;
+  width: 23%;
+  animation: animate4 100s linear infinite;
+}
+
+@keyframes animate4 {
+  0% {
+    opacity: 0.8;
+    left: 50%;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.8;
+    left: 80%;
+  }
+}
+
+.cloud5 {
+  top: 55%;
+  left: 100%;
+  width: 18%;
+  animation: animate5 100s linear infinite;
+}
+
+@keyframes animate5 {
+  0% {
+    opacity: 0.8;
+    left: 10%;
+  }
+
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0.8;
+    left: 80%;
+  }
+}
+
+.cloud6 {
+  top: 65%;
+  left: 100%;
+  width: 12%;
+  animation: animate6 120s linear infinite;
+}
+
+@keyframes animate6 {
+  0% {
+    opacity: 0.5;
+    left: 80%;
+  }
+
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0.5;
+    left: 10%;
+  }
+}
+
+.cloud7 {
+  top: 10%;
+  left: 100%;
+  width: 12%;
+  animation: animate7 80s linear infinite;
+}
+
+@keyframes animate7 {
+  0% {
+    opacity: 0.3;
+    left: 110%;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.3;
+    left: 10%;
+  }
+}
+
+.cloud8 {
+  top: 20%;
+  left: 100%;
+  width: 24%;
+  animation: animate8 150s linear infinite;
+}
+
+@keyframes animate8 {
+  0% {
+    opacity: 0.3;
+    left: 110%;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.3;
+    left: 10%;
+  }
+}
+
+.cloud9 {
+  top: 30%;
+  left: 100%;
+  width: 20%;
+  animation: animate9 150s linear infinite;
+}
+
+@keyframes animate9 {
+  0% {
+    opacity: 0.7;
+    left: 110%;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.7;
+    left: 10%;
+  }
+}

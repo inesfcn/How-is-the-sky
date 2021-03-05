@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/how-is-the-sky/static/css/main.23e8680c.chunk.css",
+    "main.js": "/how-is-the-sky/static/js/main.8c68342d.chunk.js",
+    "main.js.map": "/how-is-the-sky/static/js/main.8c68342d.chunk.js.map",
+    "runtime-main.js": "/how-is-the-sky/static/js/runtime-main.09a2dd8c.js",
+    "runtime-main.js.map": "/how-is-the-sky/static/js/runtime-main.09a2dd8c.js.map",
+    "static/js/2.f2eee80e.chunk.js": "/how-is-the-sky/static/js/2.f2eee80e.chunk.js",
+    "static/js/2.f2eee80e.chunk.js.map": "/how-is-the-sky/static/js/2.f2eee80e.chunk.js.map",
+    "index.html": "/how-is-the-sky/index.html",
+    "static/css/main.23e8680c.chunk.css.map": "/how-is-the-sky/static/css/main.23e8680c.chunk.css.map",
+    "static/js/2.f2eee80e.chunk.js.LICENSE.txt": "/how-is-the-sky/static/js/2.f2eee80e.chunk.js.LICENSE.txt",
+    "static/media/cloud.2a8311b1.png": "/how-is-the-sky/static/media/cloud.2a8311b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09a2dd8c.js",
+    "static/js/2.f2eee80e.chunk.js",
+    "static/css/main.23e8680c.chunk.css",
+    "static/js/main.8c68342d.chunk.js"
+  ]
+}
